@@ -1,0 +1,112 @@
+broken object level authorization
+broken authentication
+broken object property level authorization
+unrestricted resource consumption
+broken function level authorization
+unrestricted access to sensitive business flows
+server side request forgery
+security misconfiguration
+improper inventory management
+unsafe consumption of apis
+mail-injection
+mail server
+logical errors
+big return data
+huge payload
+xss-scripting
+sql-injection
+nosql-injection
+dos
+path-traversal
+ss-include
+community-xss
+soap
+injection attacks
+broken session management
+excessive permissions
+sensitive data exposure
+xml external entity
+broken access control
+cross site scripting
+csrf
+cross site request forgery
+insecure direct object references
+lack of rate limiting
+insufficient logging
+insufficient monitoring
+ssrf
+server side reqeust forgery
+insecure file uploads
+data validation
+input validation
+insecure deserialization
+elevation of privilege
+mass assignment
+unrestricted cors
+cors
+insecure third party dependencies
+remote file inclusion
+rfi
+local file inclusion
+lfi
+clickjacking
+session hijacking
+session side-jacking
+brute force
+credential stuffing
+directory traversal
+ddos
+man in the middle
+phishing
+buffer overflow
+zero day
+insider threats
+dns spoofing
+business logic
+email header injection
+http parameter pollution
+hpp
+server side template injection
+object injection
+xpath injection
+http response splitting
+canonicalization
+ldap injection
+http host header
+http verb tampering
+session fixation
+header manipulation
+cookie poisoning
+exploiting know vulnerabilities
+session replay
+business email compromise
+bypassing captcha
+form field manipulation
+fingerprinting
+data filtration
+os version
+vm version
+on container image
+docker image
+third party dependency
+mysql server
+input fields
+html form
+input form
+webhooks and callbacks
+serverless function
+side channel
+api versioning
+race conditions
+lack of two factor authentication
+2fa
+unrestricted api endpoints
+content spoofing
+insecure third party libraries
+no header token
+authentication lack
+multi resource
+http query
+http path
+request path
+request input
