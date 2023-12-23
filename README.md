@@ -38,8 +38,13 @@ Attacks = 9, Vulnerabilities = 112, Dataset size = 1000, Dataset files = 5
 ```
 
 ```shell
-Version v0.3 (normal):
+Version v0.3 (random):
 Attacks = 9, Vulnerabilities = 112, Dataset size = 1000, Dataset files = 10
+```
+
+```shell
+Version v0.3 (normal):
+Attacks = 8, Vulnerabilities = 112, Dataset size = 1000, Dataset files = 1
 ```
 
 ## contribute
