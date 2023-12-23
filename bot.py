@@ -2,7 +2,7 @@ import json
 import random
 
 
-BATCH = 2
+BATCH = 1000
 LIMIT = 5
 ALPHA = 2
 
@@ -41,4 +41,5 @@ if __name__ == "__main__":
             "vulenrabilities": array
         })
 
-    print(json.dumps(export))
+    with open("out.json", 'w') as file:
+        file.write(json.dumps(export, indent=4))
