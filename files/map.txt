@@ -1,8 +1,9 @@
-authentication
-brute-force
-ddos
-ddo
-injection
-payload
-rbac
-slowloris
+authentication=>"authentication lack";"no header token";"unrestricted api endpoints";"2fa";"lack of two factor authentication";"api versioning";"fingerprinting";"credential stuffing";"elevation of privilege";"sensitive data exposure";"broken session management";"unsafe consumption of apis";"improper inventory management";"broken object level authorization";"broken authentication"
+brute-force=>"request path";"http query";"input form";"html form";"input fields";"on container image";"os version";"vm version";"data filtration";"email header injection";"insider threats";"brute force";"clickjacking";"insecure deserialization";"input validation";"insecure direct object references";"sensitive data exposure";"injection attacks";"path-traversal";"sql-injection"
+ddos=>"serverless function";"third party dependency";"dns spoofing";"ddos";"brute force";"insecure third party dependencies";"server side reqeust forgery";"ssrf";"lack of rate limiting";"cross site request forgery";"unrestricted resource consumption";"server side request forgery"
+dos=>"authentication lack";"serverless function";"dns spoofing";"brute force";"lack of rate limiting";"dos";"unrestricted resource consumption";"server side request forgery"
+injection=>"request input";"request path";"http path";"http query";"insecure third party libraries";"input form";"html form";"input fields";"mysql server";"docker image";"bypassing captcha";"header manipulation";"http host header";"ldap injection";"xpath injection";"object injection";"server side template injection";"hpp";"http parameter pollution";"email header injection";"insider threats";"buffer overflow";"insecure deserialization";"input validation";"data validation";"insecure file uploads";"xml external entity";"injection attacks";"soap";"community-xss";"ss-include";"nosql-injection";"sql-injection";"xss-scripting";"mail-injection";"improper inventory management"
+payload=>"input form";"html form";"form field manipulation";"xpath injection";"object injection";"buffer overflow";"lfi";"local file inclusion";"rfi";"remote file inclusion";"mass assignment";"insecure file uploads";"huge payload";"big return data"
+rbac=>"authentication lack";"no header token";"unrestricted api endpoints";"api versioning";"docker image";"fingerprinting";"credential stuffing";"broken access control";"excessive permissions";"unsafe consumption of apis";"security misconfiguration";"broken object level authorization";"broken object property level authorization";"broken function level authorization";"unrestricted access to sensitive business flows"
+slowloris=>"session replay";"session fixation";"http host header";"http response splitting";"hpp";"http parameter pollution";"dns spoofing";"ddos";"session side-jacking";"session hijacking";"server side reqeust forgery";"lack of rate limiting";"broken session management"
+dump=>"multi resource";"content spoofing";"race conditions";"side channel";"webhooks and callbacks";"business email compromise";"exploiting know vulnerabilities";"cookie poisoning";"http verb tampering";"canonicalization";"business logic";"zero day";"phishing";"man in the middle";"directory traversal";"cors";"unrestricted cors";"insufficient monitoring";"insufficient logging";"csrf";"cross site scripting";"mail server";logical errors"
