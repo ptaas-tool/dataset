@@ -34,7 +34,7 @@ if __name__ == "__main__":
         array = random.sample(data[index]['list'], k=random.randint(1,LIMIT))
         
         if random.randint(0, 10) < ALPHA:
-            array += random.sample(data[len(data)-1], k=ALPHA)
+            array += random.sample(data[len(data)-1]['list'], k=ALPHA)
         
         export.append({
             "attack": item,
